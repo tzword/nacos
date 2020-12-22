@@ -1,0 +1,11 @@
+server:
+  port: 8071
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      discovery:
+        namespace: 68dc03c0-048d-48c4-81e3-b7d1b34556e5
+
